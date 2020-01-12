@@ -1,4 +1,34 @@
-@media screen and (min-width: $xs) {}
+@media screen and (min-width: $xs) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    h1 {
+        color: #464646;
+        font-weight: 600;
+    }
+    p {
+        color: #5c5b5b;
+        font-weight: 300;
+    }
+    .carousel {
+        height: 100vh;
+    }
+    section {
+        .row {
+            height: 100vh;
+        }
+        width: 100vw;
+    }
+    #black {
+        background: #333333;
+    }
+    .flickity-page-dots {
+        bottom: 25px;
+        .dot {
+            background: #ffaa1b;
+        }
+    }
+}
 
 @media screen and (min-width: $sm) {}
 
