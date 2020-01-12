@@ -1,0 +1,97 @@
+{
+    "items": {
+        "0": {
+            "name": "vamosla",
+            "pergunta": [
+                "Olá, tudo bom? Eu sou o Assistente Virtual da BPP e estou aqui para facilitar o seu contato com os nossos especialistas!",
+                "Para isso, eu vou te fazer algumas perguntas e já enviar o seu cadastro para a pessoa responsável. Vamos lá?"
+            ],
+            "type": "buttons",
+            "buttons": [
+                "SIM",
+                "NÃO"
+            ],
+            "resposta": "Poxa, que pena! Mas você ainda pode solicitar uma ligação ou ligar diretamente para os nossos especialistas, ok? O telefone é (11) 3432-4242"
+        },
+        "1": {
+            "name": "nome",
+            "pergunta": [
+                "Legal! Então, pode começar me dizendo o seu nome?"
+            ],
+            "type": "input",
+            "buttons": {},
+            "resposta": "Insira um nome válido!",
+            "placeholder": "Insira seu nome"
+        },
+        "2": {
+            "name": "email",
+            "pergunta": [
+                "E qual é o seu e-mail?"
+            ],
+            "type": "input",
+            "buttons": {},
+            "resposta": "Ops, poderia conferir as informações? Eu não reconheci esse formato de e-mail!",
+            "placeholder": "Insira seu nome"
+        },
+        "3": {
+            "name": "telefone",
+            "pergunta": [
+                "Perfeito! E qual é o seu telefone?"
+            ],
+            "type": "input",
+            "buttons": {},
+            "resposta": "Ops, poderia conferir as informações? Eu não reconheci esse formato de telefone.",
+            "placeholder": "Insira seu nome"
+        },
+        "4": {
+            "name": "empresa",
+            "pergunta": [
+                "Agora só mais algumas perguntinhas. Qual é o nome da empresa para a qual você gostaria de solicitar o BPP Pag?"
+            ],
+            "type": "input",
+            "buttons": {},
+            "resposta": "",
+            "placeholder": "Insira o nome da empresa"
+        },
+        "5": {
+            "name": "CNPJ",
+            "pergunta": [
+                "Legal! E você saberia informar o CNPJ da empresa? "
+            ],
+            "type": "buttons",
+            "buttons": [
+                "SEI",
+                "NÃO SEI"
+            ],
+            "resposta": "Não tem problema, podemos checar isso depois. Agora a última pergunta: você sabe quantos funcionários a empresa tem?"
+        },
+        "6": {
+            "name": "funcionarios",
+            "pergunta": [
+                "Agora a última pergunta: você sabe quantos funcionários a empresa tem?"
+            ],
+            "type": "buttons",
+            "buttons": [
+                "SEI",
+                "NÃO SEI"
+            ],
+            "resposta": "Tudo bem, podemos preencher isso mais tarde."
+        },
+        "7": {
+            "name": "contato",
+            "pergunta": [
+                "Agora só preciso saber como você gostaria que nossos especialistas entrassem em contato:"
+            ],
+            "type": "buttons",
+            "buttons": [
+                "E-MAIL",
+                "TELEFONE"
+            ],
+            "resposta": [
+                "Muito obrigado! Em breve te enviaremos um e-mail.",
+                "Muito obrigado! Aguarde uma ligação nossa em breve."
+
+            ]
+        }
+    }
+}
